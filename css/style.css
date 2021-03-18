@@ -20,16 +20,37 @@ li :hover {
 }
 
 
+/* NAVBAR PRIMARIO */
+
+#navLogo {
+    width: 20%;
+}
+
+
 /* MEDIA QUERIES */
+
+@media (max-width: 991.98px) {
+    #navSupContacto {
+        text-align: center;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+    }
+    #navLogo {
+        width: 30%;
+    }
+    #redesSociales {
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 @media (max-width: 767.98px) {
     #redesSociales {
         display: none;
     }
-    #navSupContacto {
-        text-align: center;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
+    #navLogo {
+        width: 50%;
     }
 }
