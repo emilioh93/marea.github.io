@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR SUPERIOR */
+
+#navSuperior {
+    background-color: black;
+    font-size: small;
+}
+
+li a {
+    color: whitesmoke;
+}
+
+li :hover {
+    color: red;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 767.98px) {
+    #redesSociales {
+        display: none;
+    }
+    #navSupContacto {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+}
