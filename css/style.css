@@ -129,10 +129,10 @@ li .active:hover {
     #posInfoSlider3 {
         top: 15%;
     }
-    .carousel-control-next-icon,
+    /* .carousel-control-next-icon,
     .carousel-control-prev-icon {
         visibility: hidden;
-    }
+    } */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
