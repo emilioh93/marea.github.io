@@ -26,6 +26,35 @@ li :hover {
     width: 20%;
 }
 
+.mayus {
+    text-transform: uppercase;
+}
+
+
+/* SLIDER */
+
+#posInfoSlider1 {
+    top: 20%;
+}
+
+#posInfoSlider2 {
+    top: 30%;
+    text-transform: uppercase;
+}
+
+#posInfoSlider2 span {
+    font-weight: bold;
+}
+
+#posInfoSlider3 {
+    top: 10%;
+    width: 25%;
+    height: 67%;
+    background-color: black;
+    border-radius: 5%;
+    text-transform: uppercase;
+}
+
 
 /* MEDIA QUERIES */
 
