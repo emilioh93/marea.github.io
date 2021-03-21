@@ -49,10 +49,12 @@ li :hover {
 #posInfoSlider3 {
     top: 10%;
     width: 25%;
-    height: 67%;
-    background-color: black;
-    border-radius: 5%;
     text-transform: uppercase;
+    font-size: 25px;
+}
+
+.card {
+    border-radius: 15px;
 }
 
 
@@ -81,5 +83,36 @@ li :hover {
     }
     #navLogo {
         width: 50%;
+    }
+    .carouselSmResponsive {
+        object-fit: cover;
+        height: 200px;
+    }
+    #posInfoSlider1 img {
+        width: 100%;
+    }
+    #posInfoSlider2 h1 {
+        font-size: 20px;
+    }
+    #posInfoSlider2 {
+        top: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card {
+        font-size: 14px;
+    }
+    #posInfoSlider3 {
+        top: 3%;
+    }
+    #posInfoSlider2 h1 {
+        font-size: 30px;
+    }
+    #posInfoSlider1 {
+        top: 10%;
+    }
+    #posInfoSlider1 img {
+        width: 100%;
     }
 }
