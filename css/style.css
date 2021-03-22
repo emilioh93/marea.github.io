@@ -62,8 +62,33 @@ li .active:hover {
     text-transform: uppercase;
 }
 
+.alturaImg {
+    height: 560px;
+}
+
 
 /* SLIDER */
+
+#bgSlider1 {
+    background-image: url("../img/sliders/1.png");
+}
+
+#bgSlider2 {
+    background-image: url("../img/sliders/2.png");
+}
+
+#bgSlider3 {
+    background-image: url("../img/sliders/3.png");
+}
+
+.parallax {
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #posInfoSlider1 {
     top: 20%;
@@ -170,27 +195,32 @@ li .active:hover {
 }
 
 @media (max-width: 767.98px) {
-    #redesSociales {
-        display: none;
-    }
     #navLogo {
         width: 50%;
     }
+    #bgSlider1,
+    #bgSlider2,
+    #bgSlider3 {
+        min-height: 200px;
+    }
     .carouselSmResponsive {
         object-fit: cover;
-        height: 200px;
+        height: 300px;
     }
     #posInfoSlider1 img {
         width: 100%;
     }
     #posInfoSlider2 h1 {
-        font-size: 20px;
+        font-size: 30px;
+    }
+    #posInfoSlider1 {
+        top: 30%;
     }
     #posInfoSlider2 {
         top: 10%;
     }
     #posInfoSlider3 h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
     #posInfoSlider3 {
         top: 15%;
@@ -201,6 +231,14 @@ li .active:hover {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    #bgSlider1,
+    #bgSlider2,
+    #bgSlider3 {
+        min-height: 300px;
+    }
+    .alturaImg {
+        height: 300px;
+    }
     .card {
         font-size: 14px;
     }
