@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 ul li {
     list-style: none;
 }
@@ -11,16 +17,12 @@ a {
     text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 .btn-primary {
     background-color: #2f7695;
 }
 
 .titulos {
+    font-family: 'Arimo', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     color: #2f7695;
@@ -183,7 +185,7 @@ li .active:hover {
 }
 
 .whatsapp img {
-    width: 15%;
+    width: 10%;
 }
 
 .whatsapp:hover {
