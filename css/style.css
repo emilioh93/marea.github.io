@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.btn-primary {
+    background-color: #2f7695;
+}
+
 .titulos {
     text-transform: uppercase;
     font-weight: bold;
@@ -24,11 +28,13 @@ body {
 
 li a {
     color: whitesmoke;
+    font-weight: bold;
 }
 
 li :hover {
     color: #d53332;
     transition: 0.8s;
+    font-weight: bold;
 }
 
 
@@ -83,6 +89,7 @@ li .active:hover {
 
 .fondoRojo {
     background-color: #d53332;
+    border-color: #d53332;
 }
 
 .textoRojo {
@@ -112,6 +119,30 @@ li .active:hover {
     border-color: #d53332;
     transition: 0.8s;
 }
+
+
+/* CONTACTO */
+
+.btn-primary:hover {
+    background-color: #d53332;
+    border-color: #d53332;
+    transition: 0.8s;
+}
+
+.btn-primary:focus {
+    background-color: #d53332;
+    border-color: #d53332;
+    transition: 0.8s;
+}
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+/* UBICACIÓN */
 
 
 /* MEDIA QUERIES */
