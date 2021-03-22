@@ -12,13 +12,14 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>Marea . Gestión de Inversiones</title>
 </head>
 
 <body>
     <header>
         <!-- NAVBAR SUPERIOR -->
-        <nav id="navSuperior" class="navbar navbar-expand-lg">
+        <!-- <nav id="navSuperior" class="navbar navbar-expand-lg">
             <div class="container-fluid container">
                 <ul id="navSupContacto" class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -40,7 +41,7 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> -->
         <!-- NAVBAR PRINCIPAL -->
         <nav class="navbar navbar-expand-md mainNavStyle">
             <div id="mainNavContainer" class="container">
@@ -49,7 +50,7 @@
                     <i id="iconoHamburg" class="fas fa-bars text-light"></i>
               </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mayus">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mayus animate__animated animate__fadeIn animate__delay-0.8s">
                         <li class="nav-item p-2">
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
@@ -106,12 +107,61 @@
                 </button>
             </div>
         </section>
+        <!-- CARDS -->
+        <section class="my-5">
+            <h1 class="text-center titulos">Nuestros Servicios</h1>
+        </section>
+        <section class="container">
+            <article class="row d-flex justify-content-center">
+                <div class="col-md-4 col-sm-12 animate__animated animate__fadeInUp">
+                    <div class="card shadow-lg h-100">
+                        <div class="text-center">
+                            <img src="img/cards/consultoria.png" class="card-img-top py-4 w-50" alt="imagen de gráfico de barras en crecimiento">
+                        </div>
+                        <div id="divCard1" class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title text-center">Consultoría Financiera</h5>
+                            <p class="card-text my-4">Hacemos todo tipo de estudios y análisis sobre las condiciones de tus productos y servicios, costes y mercado. Detectamos amenazas y oportunidades de mejora, y diseñamos soluciones específicas a medida.</p>
+                            <!-- 20 -->
+                            <a class="btn btn-primary">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 cardsSmMarginTop">
+                    <div class="card shadow-lg h-100 animate__animated animate__fadeInUp">
+                        <div class="text-center">
+                            <img src="img/cards/subvenciones.png" class="card-img-top py-4 w-50" alt="imagen de subvenciones">
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title text-center">Tramitación de Subvenciones</h5>
+                            <p class="card-text my-4">Rastreamos a diario para ti todas las convocatorias públicas de subvenciones a las que puede acogerse tu empresa, y te preparamos para obtener la mejor financiación.</p>
+                            <!-- 26 -->
+                            <a href="#" class="btn btn-primary">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 cardsSmMarginTop">
+                    <div class="card shadow-lg h-100 animate__animated animate__fadeInUp">
+                        <div class="text-center">
+                            <img src="img/cards/estudios.png" class="card-img-top py-4 w-50" alt="imagen de estudios de viabilidad">
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title text-center">Estudios de Viabilidad</h5>
+                            <p class="card-text my-4">Te facilitamos la más completa información y las herramientas de cálculo que te permitirán testear tu idea de negocio viendo cómo reaccionan las previsiones en distintos escenarios.</p>
+                            <!-- 27 -->
+                            <a href="#" class="btn btn-primary">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
     </main>
     <footer class="bg-dark mt-5">
         <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea voluptate nostrum eum aperiam temporibus. Laudantium maiores modi sit magni quidem aut temporibus consequuntur saepe minima voluptatum! Animi porro optio quae?</p>
     </footer>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

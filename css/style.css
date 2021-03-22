@@ -8,6 +8,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.titulos {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2f7695;
+}
+
 
 /* NAVBAR SUPERIOR */
 
@@ -84,6 +90,30 @@ li .active:hover {
 }
 
 
+/* CARDS */
+
+.card {
+    border-radius: 15px;
+}
+
+.card-title {
+    color: #d53332;
+    font-weight: bold;
+}
+
+.card-body a {
+    background-color: #2f7695;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body a:hover {
+    background-color: #d53332;
+    border-color: #d53332;
+    transition: 0.8s;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (max-width: 991.98px) {
@@ -129,10 +159,9 @@ li .active:hover {
     #posInfoSlider3 {
         top: 15%;
     }
-    /* .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        visibility: hidden;
-    } */
+    .cardsSmMarginTop {
+        margin-top: 30px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
