@@ -96,6 +96,11 @@ li .active:hover {
     color: #d53332;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    visibility: hidden;
+}
+
 
 /* CARDS */
 
