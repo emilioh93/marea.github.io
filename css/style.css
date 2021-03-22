@@ -5,6 +5,9 @@
 
 ul li {
     list-style: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -202,9 +205,6 @@ li .active:hover {
     }
     .cardsSmMarginTop {
         margin-top: 30px;
-    }
-    iframe {
-        width: 50%;
     }
 }
 
