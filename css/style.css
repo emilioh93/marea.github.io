@@ -26,14 +26,6 @@ body {
     color: #2f7695;
 }
 
-
-/* NAVBAR SUPERIOR */
-
-#navSuperior {
-    background-color: black;
-    font-size: small;
-}
-
 li a {
     color: whitesmoke;
     font-weight: bold;
