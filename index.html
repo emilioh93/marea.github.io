@@ -113,8 +113,8 @@
         </section>
         <section class="container">
             <article class="row d-flex justify-content-center">
-                <div class="col-md-4 col-sm-12 animate__animated animate__fadeInUp">
-                    <div class="card shadow-lg h-100">
+                <div class="col-md-4 col-sm-12">
+                    <div class="card shadow-lg h-100 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                         <div class="text-center">
                             <img src="img/cards/consultoria.png" class="card-img-top py-4 w-50" alt="imagen de gráfico de barras en crecimiento">
                         </div>
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 cardsSmMarginTop">
-                    <div class="card shadow-lg h-100 animate__animated animate__fadeInUp">
+                    <div class="card shadow-lg h-100 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
                         <div class="text-center">
                             <img src="img/cards/subvenciones.png" class="card-img-top py-4 w-50" alt="imagen de subvenciones">
                         </div>
@@ -140,7 +140,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 cardsSmMarginTop">
-                    <div class="card shadow-lg h-100 animate__animated animate__fadeInUp">
+                    <div class="card shadow-lg h-100 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
                         <div class="text-center">
                             <img src="img/cards/estudios.png" class="card-img-top py-4 w-50" alt="imagen de estudios de viabilidad">
                         </div>
@@ -161,7 +161,10 @@
     </footer>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
