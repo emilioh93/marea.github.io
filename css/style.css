@@ -172,7 +172,28 @@ li .active:hover {
 }
 
 
-/* UBICACIÓN */
+/* WHATSAPP */
+
+.whatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: -400px;
+    z-index: 100;
+    transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.whatsapp img {
+    width: 15%;
+}
+
+.whatsapp:hover {
+    transform: scale(1.05);
+    color: hsl(243, 80%, 62%);
+}
+
+.whatsapp:active {
+    transform: scale(.9);
+}
 
 
 /* MEDIA QUERIES */
@@ -227,6 +248,16 @@ li .active:hover {
     }
     .cardsSmMarginTop {
         margin-top: 30px;
+    }
+    .whatsapp {
+        position: fixed;
+        bottom: 30px;
+        right: -440px;
+        z-index: 100;
+        transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+    }
+    .whatsapp img {
+        width: 12%;
     }
 }
 
