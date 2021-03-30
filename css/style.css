@@ -198,6 +198,13 @@ li .active:hover {
 }
 
 
+/* PÁGINA 404 */
+
+.w-404 {
+    width: 50%;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (max-width: 991.98px) {
@@ -260,6 +267,9 @@ li .active:hover {
     }
     .whatsapp img {
         width: 12%;
+    }
+    .w-404 {
+        width: 100%;
     }
 }
 
